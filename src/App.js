@@ -162,7 +162,7 @@ function App() {
         <div className='next'>
         {
               tokenA && tokenB && newAAmount && newBAmount
-              ? `Impermant Loss: ${Math.round(il * 100) / 100 * - 1}%`
+              ? `Impermanent Loss: ${Math.round(il * 100) / 100 * - 1}%`
               : `Impermanent Loss: 0%`
         }
         </div>
